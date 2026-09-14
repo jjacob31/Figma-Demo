@@ -129,6 +129,15 @@
   width: 1217px;
   height: 352px;
 }
+.professor-contact-paul-t-shapiro-pshapiro-umd-edu-ta-contact-bharath-sreekumar-bsreekum-umd-edu-caifu-lin-clin-0817-terpmail-umd-edu-sumanth-devara-sdevara-umd-edu a {
+  color: #a8ff35;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+.professor-contact-paul-t-shapiro-pshapiro-umd-edu-ta-contact-bharath-sreekumar-bsreekum-umd-edu-caifu-lin-clin-0817-terpmail-umd-edu-sumanth-devara-sdevara-umd-edu a:hover {
+  border-color: #a8ff35;
+}
 
 @media (max-width: 768px) {
   .frame-6 {
