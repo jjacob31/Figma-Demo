@@ -19,6 +19,27 @@
   left: 111px;
   top: 72px;
 }
+.frame-6 .navbar {
+  align-self: stretch;
+  width: 100%;
+}
+
+.navbar-nav {
+  gap: 70px;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  padding: 0;
+}
+
+.navbar-brand {
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  color: #ffffff !important;
+}
 /* .frame-2 {
   display: flex;
   flex-direction: row;
