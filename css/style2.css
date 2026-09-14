@@ -122,6 +122,12 @@
   height: 352px;
 }
 
+.bmgt-407-information-systems-project,
+.contact-us {
+  padding-left: 20px;
+  border-left: 4px solid #a8ff35;
+}
+
 @media (max-width: 768px) {
   .frame-6 {
     width: 100%;

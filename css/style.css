@@ -100,6 +100,17 @@
   width: 1086px;
   position: relative;
 }
+.frame-5::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  height: 900px;
+  background: radial-gradient(circle, rgba(168,255,53,0.06) 0%, transparent 70%);
+  z-index: -1;
+}
 .frame-4 {
   display: flex;
   flex-direction: column;
@@ -166,10 +177,13 @@
   color: #000000;
   font-family: "Montserrat-Regular", sans-serif;
   font-size: 24px;
+  box-shadow: 0 4px 14px rgba(168, 255, 53, 0.25);
 }
 
 .rectangle-1:hover {
   background-color: #8fd92b;
+  box-shadow: 0 6px 20px rgba(168, 255, 53, 0.4);
+  transform: translateY(-2px);
   cursor: pointer;
 }
 
